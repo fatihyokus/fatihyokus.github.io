@@ -1,88 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fatih Yokus - Lecture Notes</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        main {
-            margin-top: 20px;
-        }
-        h2 {
-            color: #007BFF;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        li a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-        li a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #777;
-            text-align: left;
-        }
-        nav {
-            text-align: center;
-            margin-top: 20px;
-        }
-        nav a {
-            color: #007BFF;
-            text-decoration: none;
-            margin-right: 15px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notes · Fatih Yokus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="page">
+    <header class="site-header">
+      <a class="site-name" href="index.html">Fatih Yokus</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">About</a>
+        <a href="publications.html">Papers</a>
+        <a href="notes.html" aria-current="page">Notes</a>
+        <a href="Resume_CV_.pdf">CV</a>
+      </nav>
+    </header>
 
-<header>
-    <h1>Fatih Yokus</h1>
-</header>
+    <main>
+      <h1>Notes</h1>
+      <p>Lecture and seminar notes. Use at your own risk; corrections are welcome by email.</p>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="publications.html">Publications</a>
-</nav>
+      <h2>Typed notes</h2>
+      <ul class="plain-list">
+        <!-- Example entry:
+        <li>
+          <a class="item-title" href="notes/note1.pdf">Title of the notes</a>
+          <span class="item-meta">Course or seminar name, Fall 2026</span>
+        </li>
+        -->
+        <li class="empty">Coming soon.</li>
+      </ul>
 
-<main>
-    <h2>Lecture Notes(Latex)</h2>
-    <ul>
-        <li><a href="latex_notes/note1.pdf" target="_blank">Note Title 1</a></li> 
-    </ul>
-    <h2>Lecture Notes(Handwritten)</h2>
-    <ul>
-        <li><a href="handwritten_notes/note1.pdf" target="_blank">Note Title 1</a></li> 
-    </ul>
-</main>
+      <h2>Handwritten notes</h2>
+      <ul class="plain-list">
+        <!-- Example entry:
+        <li>
+          <a class="item-title" href="notes/note2.pdf">Title of the notes</a>
+          <span class="item-meta">Course or seminar name, Spring 2026</span>
+        </li>
+        -->
+        <li class="empty">Coming soon.</li>
+      </ul>
+    </main>
 
-<footer>
-    &copy; 2024 Fatih Yokus. All rights reserved.
-</footer>
-
+    <footer class="site-footer">
+      Last updated November 2026.
+    </footer>
+  </div>
 </body>
 </html>
