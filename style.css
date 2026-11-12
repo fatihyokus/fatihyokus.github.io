@@ -119,28 +119,10 @@ a:hover {
 
 /* ---------- Intro ---------- */
 
-.intro {
-  display: grid;
-  grid-template-columns: 1fr 9.5rem;
-  gap: 2rem;
-  align-items: start;
-  margin-bottom: 2rem;
-}
-
-.portrait {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 3px;
-  display: block;
-  filter: grayscale(0.15);
-}
+.intro { margin-bottom: 2rem; }
 
 @media (max-width: 34rem) {
   .page { padding-top: 2.5rem; }
-  .intro { grid-template-columns: 1fr; gap: 1.5rem; }
-  .portrait { width: 8rem; order: -1; }
   h1 { font-size: 2rem; }
 }
 
